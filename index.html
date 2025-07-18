@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>vedita-Developer poerfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cantarell:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        background-color:#130221;
+        color: white;
+        font-family: "poppins", sans-serif;
+      }
+      nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 50px;
+        background-color: rgb(57, 2, 57);
+      }
+      nav ul {
+        display: flex;
+        justify-content: center;
+      }
+      nav ul li {
+        list-style: none;
+        margin: 0 30px;
+      }
+      nav ul li a {
+        text-decoration: none;
+        color: white;
+      }
+      nav ul li a:hover {
+        color: rgb(175, 175, 232);
+        font-size: 1.04rem;
+      }
+      main hr {
+        border: 0;
+        background: #084149;
+        height: 1.4px;
+        margin: 50px 84px;
+      }
+      .left {
+        font-size: 2rem;
+      }
+      .firstSection {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 170px 0;
+      }
+      .firstSection > div {
+        width: 30%;
+      }
+      .leftSection {
+        font-size: 2rem;
+        margin: 30px;
+      }
+      .leftSection .buttons{
+        padding: 50px 0;
+      }
+      .leftSection .btn{
+        padding: 12px;
+        background: #e037bb;
+        color: white;
+        border: 2px solid white;
+        border-radius: 4px;
+        font-size: 15px;
+        cursor: pointer;
+      }
+      .rightSection img {
+        width: 60%;
+      }
+      .purple {
+        color: rgb(108, 21, 72);
+      }
+      .text-gray {
+        color: gray;
+      }
+      #element {
+        color: rgb(223, 38, 180);
+      }
+      .secondSection {
+        max-width: 80vw;
+        margin: auto;
+        height: 80vh;
+      }
+      .secondSection h1 {
+        font-size: 1.9rem;
+      }
+      .secondSection .box {
+        background: white;
+        width: 77vw;
+        height: 2px;
+        margin: 56px 0;
+        display: flex;
+      }
+      .secondSection .vertical {
+        height: 93px;
+        width: 1px;
+        background-color: white;
+        margin: 0 130px;
+      }
+      .image-top {
+        width: 26px;
+        position: relative;
+        top: -32px;
+        left: -9px;
+      }
+
+      .vertical-tittle {
+        position: relative;
+        top: 75px;
+        width: 150px;
+        font-size: 14px;
+      }
+      .vertical-desc {
+        position: relative;
+        top: 86px;
+        color: gray;
+        width: 150px;
+        font-size: 16px;
+      }
+      .footer{
+        background-color: #0b0312;
+      }
+    .footer{
+        display: flex;
+        padding: 23px 122px;
+        justify-content: space-evenly;
+    }
+    .footer ul{
+        list-style: none;
+    }
+    .footer> div{
+        width: 123px;
+
+    }
+    footer .footer-rights{
+        text-align: center;
+        color: gray;
+        padding:12px 0 ;
+
+    }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="left">Rakhi portfolio</div>
+        <div class="right">
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/">About</a></li>
+            <li><a href="/">Service</a></li>
+            <li><a href="/">Projects</a></li>
+            <li><a href="/">Contact Me</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="firstSection">
+        <div class="leftSection">
+          Hi, My name is <span class="purple">Rakhi Gupta</span>
+          <div>and I am a student of Himcs college</div>
+          <div>for pursuing MCA.</div>
+          <span id="element"></span>
+          <div class="buttons">
+               <button class="btn">Download Resume</button>
+                <button class="btn">Visit GitHub</button>
+        </div>
+        </div>
+        <div class="rightSection">
+          <img src="developer.jpg" alt="image" />
+        </div>
+      </section>
+      <hr />
+      <section class="secondSection">
+        <span class="text-gray">What I have Done so far</span>
+        <h1>Qualification</h1>
+
+        <div class="box">
+          <div class="vertical">
+            <img class="image-top" src="qualification.png" alt="student" />
+            <div class="vertical-tittle">High School (2019)</div>
+            <div class="vertical-desc">
+              Gyan lok inter college
+            </div>
+          </div>
+           <div class="vertical">
+            <img class="image-top" src="intermediate.png.png" alt="student" />
+            <div class="vertical-tittle">Intermediated School (2021)</div>
+            <div class="vertical-desc">
+              Gyan lok inter College
+            </div>
+          </div> <div class="vertical">
+            <img class="image-top" src="graduation.jpg" alt="student" />
+            <div class="vertical-tittle">Bachler of computer application (2024)</div>
+            <div class="vertical-desc">
+              Dr. bhimrao ambedkar University,Agra
+            </div>
+          </div> <div class="vertical">
+            <img class="image-top" src="mcaa.png.jpg" alt=" college student" />
+            <div class="vertical-tittle">Master of Computer Appliction (Pursuing)</div>
+            <div class="vertical-desc">
+              Dr. A.P.J.Abdul Kalam Technical University, Lucknow
+            </div>
+          </div>
+      </section>
+    </main>
+
+    <footer>
+            <div class="footer">
+                 <div class="footer-first">
+                     <h3>Rakhi's Gupta portfolio</h3>
+                 </div>
+                 <div class="footer-second">
+                    <ul>
+                     <li>Home</li>
+                    <li>About</li>
+                    <li>Service</li>
+                    <li>Contact</li>
+                    </ul>
+                 </div>
+                 <div class="footer-third">
+                   <ul>
+                        <li>Home</li>
+                        <li>About</li>
+                        <li>Services</li>
+                        <li>Contact</li>
+                    </ul> 
+                 </div>
+                 <div class="footer-fourth">
+                     <ul>
+                        <li>Home</li>
+                        <li>About</li>
+                        <li>Services</li>
+                        <li>Contact</li>
+                    </ul> 
+                 </div>
+            </div>
+                 <div class=" footer-rights">
+                  Copyright ©Rakhi's portfolio.com | All rights reserved
+                 </div>
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+    <script>
+      var typed = new Typed("#element", {
+        strings: [
+          "Hardworker",
+          "Honest Person",
+          "Web Developer",
+        ],
+        typeSpeed: 50,
+      });
+    </script>
+  </body>
+</html>
